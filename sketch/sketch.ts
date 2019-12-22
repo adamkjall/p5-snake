@@ -8,10 +8,11 @@ function preload() {
   // Tyvärr har jag inte fått till den globala typningen för
   // inladdningen av ljud men fungerar bra enligt nedan..
   // sound = (window as any).loadSound('../assets/mySound.wav');
-  apple = loadImage("./../assets/images/bulle.png");
-  head = loadImage("./../assets/images/head.png");
-  tail = loadImage("./../assets/images/tail.png");
-  tailEnd = loadImage("./../assets/images/tail-end.png");
+  apple = loadImage("/assets/images/bulle.png");
+  head = loadImage("/assets/images/head.png");
+  tail = loadImage("/assets/images/tail.png");
+  tailEnd = loadImage("/assets/images/tail-end.png");
+  
 }
 
 /**

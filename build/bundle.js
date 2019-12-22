@@ -56,10 +56,10 @@ var Ball = (function () {
     return Ball;
 }());
 function preload() {
-    apple = loadImage("./../assets/images/bulle.png");
-    head = loadImage("./../assets/images/head.png");
-    tail = loadImage("./../assets/images/tail.png");
-    tailEnd = loadImage("./../assets/images/tail-end.png");
+    apple = loadImage("/assets/images/bulle.png");
+    head = loadImage("/assets/images/head.png");
+    tail = loadImage("/assets/images/tail.png");
+    tailEnd = loadImage("/assets/images/tail-end.png");
 }
 var size;
 var snake;
