@@ -111,8 +111,10 @@ function windowResized() {
   resizeCanvas(800, 800);
 }
 
-function mousePressed(event: Event) {
-  snake.eat();
+function mousePressed() {
+  if (snake) {
+    snake.eat();
+  }
 }
 
 // function keyReleased(event: Event) {

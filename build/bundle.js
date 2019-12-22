@@ -122,8 +122,10 @@ var angle = 0;
 function windowResized() {
     resizeCanvas(800, 800);
 }
-function mousePressed(event) {
-    snake.eat();
+function mousePressed() {
+    if (snake) {
+        snake.eat();
+    }
 }
 function createSnake() {
     return new Snake(floor(width / 2 / size) * size, floor(height / 2 / size) * size, size);
