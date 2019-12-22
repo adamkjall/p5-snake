@@ -56,9 +56,9 @@ var Ball = (function () {
     return Ball;
 }());
 function preload() {
-    apple = loadImage("/images/bulle.png");
-    head = loadImage("/images/head.png");
-    tail = loadImage("./../images/tail.png");
+    apple = loadImage("./images/bulle.png");
+    head = loadImage("./images/head.png");
+    tail = loadImage("./images/tail.png");
     tailEnd = loadImage("./images/tail-end.png");
 }
 var size;
