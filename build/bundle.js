@@ -56,10 +56,10 @@ var Ball = (function () {
     return Ball;
 }());
 function preload() {
-    apple = loadImage("./images/bulle.png");
-    head = loadImage("./images/head.png");
-    tail = loadImage("./images/tail.png");
-    tailEnd = loadImage("./images/tail-end.png");
+    apple = loadImage("./../images/bulle.png");
+    head = loadImage("./../images/head.png");
+    tail = loadImage("./../images/tail.png");
+    tailEnd = loadImage("./../images/tail-end.png");
 }
 var size;
 var snake;
@@ -72,7 +72,7 @@ function setup() {
     createCanvas(800, 800);
     frameRate(5);
     noStroke();
-    size = floor(width / 20);
+    size = floor(width / 15);
     snake = createSnake();
     dot = createDot(floor(random(size, width - size) / size) * size, floor(random(size, height - size) / size) * size);
 }

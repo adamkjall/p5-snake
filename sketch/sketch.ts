@@ -37,7 +37,7 @@ function setup() {
   createCanvas(800, 800);
   frameRate(5);
   noStroke();
-  size = floor(width / 20);
+  size = floor(width / 15);
 
   snake = createSnake();
 
