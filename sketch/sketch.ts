@@ -38,7 +38,6 @@ function setup() {
   frameRate(5);
   noStroke();
   size = floor(width / 15);
-
   snake = createSnake();
 
   dot = createDot(
