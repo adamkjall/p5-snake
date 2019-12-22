@@ -13,6 +13,7 @@ function preload() {
   tail = loadImage("./../images/tail.png");
   tailEnd = loadImage("./../images/tail-end.png");
   
+  
 }
 
 /**
